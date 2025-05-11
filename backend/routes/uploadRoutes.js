@@ -9,7 +9,7 @@ const pipeline = promisify(require("stream").pipeline);
 const router = express.Router();
 
 const upload = multer();
-
+// const upload = multer({ dest: 'uploads/' });
 router.post("/resume", upload.single("file"), (req, res) => {
   const { file } = req;
   if (file.detectedFileExtension != ".pdf") {

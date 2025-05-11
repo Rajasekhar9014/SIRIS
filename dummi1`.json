@@ -1,0 +1,7 @@
+dummi1`.txt
+"eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
