@@ -1,3 +1,4 @@
+import React from 'react'; 
 module.exports = {
     extends: ["react-app"], // For Create React App projects
     rules: {

@@ -4,4 +4,7 @@ dummi1`.txt
       "react-app",
       "react-app/jest"
     ]
-  },
+  }
+
+
+  #set NODE_OPTIONS=--openssl-legacy-provider

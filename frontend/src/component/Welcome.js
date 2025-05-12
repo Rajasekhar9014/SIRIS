@@ -1,3 +1,4 @@
+import React from 'react'; 
 import { Grid, Typography } from "@material-ui/core";
 
 const Welcome = (props) => {
